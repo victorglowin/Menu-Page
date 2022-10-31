@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+/*Styling for Nav bar*/
+
+.navigation {
+    height: 8vh;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.nav {
+    padding: 10px;
+    border: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav h1 {
+    font-size: 25px;
+}
+
+/*Styling for Header*/
+
+.header {
+    background-image: url(backgroundimage.gif);
+    background-size: auto;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1, p {
+    color: yellow;
+    font-weight: bold;
+}
+
+.header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.header-text {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+/*Styling for section- Appetizers*/
+
+.appetizer {
+    margin-top: 40px;
+    width: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-text {
+    font-size: 42px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.appe-meals {
+    text-align: center;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+span {
+    color: rgb(121, 194, 10);
+}
+
+/*This is styling for section-Full Dishes*/
+
+.main-meal {
+    margin-top: 50px;
+    width: auto;
+    background-color: rgb(255, 255, 132);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.full-meals {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+  
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 50px;
+    width: 30%;
+    font-weight: bold;
+}
+
+#text {
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*This is styling for reviews*/
+
+.reviews {
+    width: auto;
+    text-align: center;
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.r-block {
+    border: 2px solid yellow;
+    width: 80%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/*This is styling for section-Mission*/
+
+.mission {
+    background-color: black;
+    color: white;
+    margin: 100px 500px 0px 500px;
+    border-radius: 10px;
+    height: 100px;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.mission h2 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.mission div {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+ /*This is styling for footer*/
+
+ footer {
+    background-color: rgb(126, 126, 126);
+    text-align: center;
+    margin-top: 50px;
+ }
